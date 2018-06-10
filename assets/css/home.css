@@ -1,0 +1,65 @@
+body.draw{
+    background-color: white;
+}
+
+.container {
+    height:100%;
+    width:100%;
+
+}
+
+.main-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-options {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+}
+
+.game {
+    position: absolute;
+    height: auto;
+    width: 7%;
+    opacity: 1;
+    left: 60%;
+    padding-top: 1.5%;
+}
+
+.char {
+    opacity: 1;
+    fill: #222;
+    stroke: #fff;
+    stroke-width: 3;
+    stroke-dasharray: 1200px;
+    stroke-dashoffset: 1200px;
+}
+
+.logo .char, body.draw {
+    animation: draw 3s 1 linear forwards;
+}
+
+@keyframes draw {
+    60% {
+        opacity: 0.5;
+        stroke-dashoffset: 0;
+        stroke-opacity: 1;
+        fill: #222;
+    }
+    70%, 85% {
+        opacity: 1;
+        stroke-opacity: 0;
+        fill: #fff;
+        background-color: lightblue
+    }
+    95%, 100% {
+        opacity: 1;
+        fill: #222;
+        stroke-dashoffset: 0;
+        stroke-opacity: 0;
+    }
+}
