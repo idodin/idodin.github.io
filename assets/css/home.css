@@ -26,13 +26,40 @@ body.draw{
     height: auto;
     width: 7%;
     opacity: 1;
-    left: 60%;
+    left: 62%;
+    padding-top: 1.5%;
+}
+
+.git-icon {
+    position: absolute;
+    height: auto;
+    width: 6%;
+    opacity: 1;
+    left: 72.5%;
+    padding-top: 1.5%;
+}
+
+.li-icon {
+    position: absolute;
+    height: auto;
+    width: 5%;
+    opacity: 1;
+    left: 82%;
+    padding-top: 2.1%;
+}
+
+.brush {
+    position: absolute;
+    height: auto;
+    width: 6%;
+    opacity: 1;
+    left: 90%;
     padding-top: 1.5%;
 }
 
 .char {
     opacity: 1;
-    fill: #222;
+    fill: rgba(0, 0, 0, 0);
     stroke: #fff;
     stroke-width: 3;
     stroke-dasharray: 1200px;
@@ -48,7 +75,7 @@ body.draw{
         opacity: 0.5;
         stroke-dashoffset: 0;
         stroke-opacity: 1;
-        fill: #222;
+        fill: rgba(0, 0, 0, 1);
     }
     70%, 85% {
         opacity: 1;
