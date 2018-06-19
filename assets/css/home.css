@@ -39,6 +39,11 @@ body.draw{
     padding-top: 1.5%;
 }
 
+.menu-options svg:hover {
+    opacity: 1;
+    animation: bounce 2s ease-in-out infinite forwards; 
+}
+
 .li-icon {
     position: absolute;
     height: auto;
@@ -88,5 +93,21 @@ body.draw{
         fill: #222;
         stroke-dashoffset: 0;
         stroke-opacity: 0;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+    }
+
+    50% {
+        margin-top: -1.3%;
+    }
+}
+
+
+@keyframes ghost {
+    0%, 100% {
+        opacity: 0; 
     }
 }
