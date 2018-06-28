@@ -27,22 +27,24 @@ body.draw{
     position: absolute;
 }
 
-.game {
+#game {
     position: absolute;
     height: auto;
     width: 7%;
     opacity: 1;
     left: 62%;
     padding-top: 1.5%;
+    display: none;
 }
 
-.git-icon {
+#git-icon {
     position: absolute;
     height: auto;
     width: 6%;
     opacity: 1;
     left: 72.5%;
     padding-top: 1.5%;
+    display: none;
 }
 
 .menu-options svg:hover {
@@ -53,22 +55,24 @@ body.draw{
     animation: bounce 2s ease-in-out infinite forwards; 
 }
 
-.li-icon {
+#li-icon {
     position: absolute;
     height: auto;
     width: 5%;
     opacity: 1;
     left: 82%;
     padding-top: 2.1%;
+    display: none;
 }
 
-.brush {
+#brush {
     position: absolute;
     height: auto;
     width: 6%;
     opacity: 1;
     left: 90%;
     padding-top: 1.5%;
+    display: none;
 }
 
 .char {
@@ -86,6 +90,7 @@ body.draw{
     -o-animation: draw 3s 1 linear forwards;
     animation: draw 3s 1 linear forwards;
 }
+
 
 @-webkit-keyframes draw {
     60% {
@@ -170,6 +175,7 @@ body.draw{
         stroke-opacity: 0;
     }
 }
+
 
 @-webkit-keyframes bounce {
     0%, 100% {
