@@ -1,5 +1,5 @@
-body.draw{
-    background-color: white;
+body{
+    background-color: #606060;
 }
 
 .container {
@@ -166,13 +166,14 @@ body.draw{
         opacity: 1;
         stroke-opacity: 0;
         fill: #fff;
-        background-color: lightblue
+        background-color: lightblue;
     }
     95%, 100% {
         opacity: 1;
         fill: #222;
         stroke-dashoffset: 0;
         stroke-opacity: 0;
+        background-color: white;
     }
 }
 
