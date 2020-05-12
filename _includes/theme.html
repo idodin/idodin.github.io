@@ -1,0 +1,11 @@
+<script type="text/javascript">
+  var displayMode = sessionStorage.getItem("theme");
+  if (displayMode == undefined || displayMode == "" || displayMode == null) {
+    sessionStorage.setItem("theme", "dark");
+    displayMode = "dark";
+    switchTheme(0);
+  } else {
+    sessionStorage.setItem("theme", sessionStorage.getItem("theme"));
+    switchTheme(0);
+  }
+</script>

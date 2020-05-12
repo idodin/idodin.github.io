@@ -1,0 +1,49 @@
+---
+layout: post-default
+---
+
+<div class="readtime-progress" id="readtime-progress"></div>
+
+<div class="post-heading post-heading-wrapper post-image">
+	<div class="grad-post">
+		<h1>{{ page.title }}</h1>
+		<div class="post-subheading">
+			<p>{{ page.class }} | {{ page.date | date_to_long_string }}</p>
+		</div>
+		{% include share.html %}
+	</div>
+</div>
+
+<div class="containing">
+	<div class="wrapping">
+
+		<!--{% include share_fab.html %}-->
+
+		<div class="post-cover">
+			<article class="post">
+				<div class="entry">
+					{{ content }}
+				</div>
+			</article>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	
+	window.onscroll = function() {
+		sideBarScrollHandler();
+		windowScrollHandler();
+	};
+	
+	function sideBarScrollHandler() {
+		if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+			document.getElementById("sidebar_tracker").style.top = "20px";
+		} else {
+			document.getElementById("sidebar_tracker").style.top = "70px";
+		}
+	}
+	
+</script>
+
+<script type="text/javascript" src="/js/readtime.js"></script>

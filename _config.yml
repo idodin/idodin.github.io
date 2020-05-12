@@ -1,0 +1,54 @@
+#
+# Website's configuration file.
+#
+
+name: Imad Dodin
+description: Personal website and blog by Imad Dodin
+subheading: Personal Website of Imad Dodin
+image: /images/icons/logo.png
+
+google_analytics: UA-93019594-1
+url: "https://dodin.ca"
+baseurl: ""
+
+collections:
+  coffee:
+    output: true
+
+permalink: /:title/
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span: 
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+paginate: 4
+excerpt_separator: <!--more-->
