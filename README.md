@@ -3,4 +3,4 @@
 This website is live at [dodin.ca](https://dodin.ca)
 
 
-![blog](/images/blog-screenshot.png)
+![blog](https://i.imgur.com/KsHRmTD.png)
