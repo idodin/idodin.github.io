@@ -115,6 +115,10 @@ permalink: /
               popular rhythm game, osu!. Sadly, my rank has decayed quite a bit and I don't play much
               anymore, but sometimes I log in to catch up with friends!
             </p>
+            <p>
+            :rotating_light: <b> Since the start of the COVID-19 Pandemic, I've been building Shopify Stores and Admin Panels free of charge
+            for local businesses looking to transition to online platforms during this rough time. Please email me at <a href="mailto:imad@dodin.ca?Subject=COVID-19/Shopify">imad@dodin.ca</a> 
+            if you are a local business that have been negatively impacted by the COVID-19 Pandemic. <br/>:rainbow: Ca va bien aller. :rainbow:</b>
             <h3>Timeline</h3>
             <ul class="timeline">
               <li>
