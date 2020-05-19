@@ -758,7 +758,7 @@ permalink: /
                     >
                   </p>
                   <img style="max-height:350px; border-radius:15px;padding: 10px;" src="images/projects/wisp.png" alt="WISP Figma">
-                  <a href="http://wisp.compete-mcgill.ca/">live</a> |
+                  <a href="https://wisp.training/" target="_blank">live</a> |
                   <a
                     href="https://github.com/orgs/Compete-McGill/"
                     target="_blank"
