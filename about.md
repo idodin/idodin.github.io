@@ -72,12 +72,7 @@ permalink: /
               </p>
               <h3>Biography</h3>
               <p style="margin-top: 0px !important;">
-                :wave: Hey there! My name is Imad, I'm a Palestinian-Canadian student
-                going into my last semester of Software Engineering at McGill
-                University. I've kept myself busy during my time here and met so
-                many great people! As I prepare to embark on this next chapter of
-                my life, I hope this website can act as a brief summary of what
-                I've done with my time (professionally and not) so far!
+                :wave: Hey there! My name is Imad, I'm a Software Engineer at Microsoft. I currently work on Microsoft Teams where I primarily do Backend and Infra work. Still learning a bunch!
               </p>
               <p>
                 :computer: I decided to commit to a career in tech to help empower others and
@@ -122,8 +117,22 @@ permalink: /
               <h3>Timeline</h3>
               <ul class="timeline">
                 <li>
+                  <b>2021 - Present</b> -
+                  <a href="https://www.microsoft.com/en-ca" target="_blank">Microsoft</a>, Redmond (Remote)
+                  WA (Remote) - <b>Software Engineer</b> - Microsoft
+                  <a
+                    href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-teams/group-chat-software" target="_blank"
+                    >Teams</a
+                  >.
+                </li>
+                <li>
                   <b>2020</b> -
-                  <a href="https://www.microsoft.com/en-ca" target="_blank">Microsoft</a>, Redmond
+                  <a href="https://shopify.ca" target="_blank">Shopify</a>, Waterloo 
+                  ON (Remote) - <b>Backend Developer Intern</b> - Shopify Plus.
+                </li>
+                <li>
+                  <b>2020</b> -
+                  <a href="https://www.microsoft.com/en-ca" target="_blank">Microsoft</a>, Redmond (Remote)
                   WA (Remote) - <b>Software Engineering Intern</b> - Microsoft
                   <a
                     href="https://www.microsoft.com/en-ca/microsoft-365/microsoft-teams/group-chat-software" target="_blank"
